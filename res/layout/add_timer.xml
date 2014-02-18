@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <Button
+        android:id="@+id/add_step_button"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="@string/add_step"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/prococal_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/add_step_button"
+        android:layout_marginTop="22dp"
+        android:hint="@string/protocal_name"
+        android:textSize="35sp" />
+
+    <FrameLayout
+        android:id="@+id/prococal_setup_row_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/prococal_Name" >
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/search_protocol_button"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="32dp"
+        android:layout_toRightOf="@+id/add_step_button"
+        android:text="@string/search_protocol"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/search_protocol_button"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/search_protocol_button"
+        android:layout_marginLeft="32dp"
+        android:layout_toRightOf="@+id/add_step_button"
+        android:text="@string/search_protocol"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/save_protocol_button"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="48dp"
+        android:text="@string/save_protocol"
+        android:textSize="15sp" />
+
+</RelativeLayout>
